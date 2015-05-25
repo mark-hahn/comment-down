@@ -8,7 +8,7 @@ module.exports = CommentDown =
 
     @subs.add atom.commands.add 'atom-workspace atom-text-editor'
     , 'editor:toggle-line-comments': => 
-      editor = atom.workspace.getActiveEditor()
+      editor = atom.workspace.getActiveTextEditor()
       editor.moveDown()
       editor.moveToBeginningOfLine()
       

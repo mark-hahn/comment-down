@@ -1,7 +1,7 @@
 {
   "name": "comment-down",
   "main": "./lib/comment-down",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Moves cursor down one line after toggling comment",
   "repository": "https://github.com/mark-hahn/comment-down",
   "license": "MIT",
